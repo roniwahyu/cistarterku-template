@@ -1,0 +1,33 @@
+{
+	"description" : "Library Addons For cistarterku",
+	"name": "roniwahyu/cistarterku-template",
+	"type": "project",
+	"keywords": [
+        "CodeIgniter",
+        "Composer",
+        "installer",
+"library",
+"template",
+        "Starter"
+    ],
+	"homepage": "http://roniwahyu.com",
+	"license": "MIT",
+	 "authors": [
+{
+            "name": "Syahroni Wahyu Iriananda",
+            "email": "roniwahyu@gmail.com"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+            "Roniwahyu\\CodeIgniter\\": "src/"
+        }
+    },
+	"require": {
+		"php": ">=5.3.2",
+		"codeigniter/framework": "3.1.*"
+		
+	}
+	
+	
+}
